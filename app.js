@@ -20,6 +20,7 @@ function getCookie(name) {
 }
 
 var checkE = checkACookieExists();
+
 if (checkE == "false") {
   // cookie does not exist
   console.log("cookie does not exist");
